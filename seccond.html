@@ -47,7 +47,7 @@
         <section class="explain-section">
             <div class="explain-box">
                 <p class="progress-number">
-                    <span>01</span>
+                    <span>02</span>
                     <span> / 03</span>
                 </p>
                 <h2 class="section-title" id="test_title">자신의 신체 지수를<br>
@@ -57,34 +57,62 @@
             <div class="progress-summary">
                 <h3 class="summary-title">체형/라인 셀프테스트</h3>
                 <ul class="progress-state">
-                    <li class="checked">01. 신체 치수 입력하기</li>
-                    <li>02. 설문지 체크하기</li>
+                    <li>01. 신체 치수 입력하기</li>
+                    <li class="checked">02. 설문지 체크하기</li>
                     <li>03. 셀프 테스트 결과 보기</li>
                 </ul>
             </div>
         </section>  
         <section class="checking-section">
             <div class="submit-box">
-                <div class="box-input">
-                    <label>내 어깨 넓이는?</label>
-                    <input type="number" min="0" placeholder="어깨 넓이를 입력하여주세요">
+                <strong class="radio-name">1. 나의 어깨 선은?</strong>
+                <div class="box-radio">
+                    <input value="1" name="shoulder" id="shoulder_a" type="radio">
+                    <label for="shoulder_a">각져있다</label>
+                    <input value="0" name="shoulder" id="shoulder_r" type="radio">
+                    <label for="shoulder_r">둥굴다</label>
                 </div>
-                <div class="box-input">
-                    <label>내 허리 너비는?</label>
-                    <input type="number" min="0" placeholder="허리 너비를 입력해주세요.">
+                <strong class="radio-name">2. 나의 갈비뼈는?</strong>
+                <div class="box-radio">
+                    <input value="1" name="rib" id="rib_a" type="radio">
+                    <label for="rib_a">각져있다</label>
+                    <input value="0" name="rib" id="rib_r" type="radio">
+                    <label for="rib_r">둥굴다</label>
                 </div>
-                <div class="box-input">
-                    <label>내 골반 너비는?</label>
-                    <input type="number" min="0" placeholder="골반 너비를 입력해주세요.">
+                <strong class="radio-name">3. 나의 골반 모양은?</strong>
+                <div class="box-radio">
+                    <input value="1" name="pelvis" id="pelvis_a" type="radio">
+                    <label for="pelvis_a">각져있다</label>
+                    <input value="0" name="pelvis" id="pelvis_r" type="radio">
+                    <label for="pelvis_r">둥굴다</label>
                 </div>
-                <div class="box-input">
-                    <label>나는 허리선이 있는가?</label>
-                    <select>
-                        <option value="" disabled  selected>있다/보통이다/없다 중 선택해주세요.</option>
-                        <option value="1">있다</option>
-                        <option value="2">보통이다</option>
-                        <option value="3">없다</option>
-                    </select>
+                <strong class="radio-name">4. 나의 척추 모양은?</strong>
+                <div class="box-radio">
+                    <input value="1" name="spine" id="spine_a" type="radio">
+                    <label for="spine_a">일자다</label>
+                    <input value="0" name="spine" id="spine_r" type="radio">
+                    <label for="spine_r">휘어있다</label>
+                </div>
+                <strong class="radio-name">5. 나의 등라인은?</strong>
+                <div class="box-radio">
+                    <input value="1" name="back" id="back_a" type="radio">
+                    <label for="back_a">평평하다</label>
+                    <input value="0" name="back" id="back_r" type="radio">
+                    <label for="back_r">둥글다</label>
+                </div>
+                <strong class="radio-name">6. 나의 허리커브는?</strong>
+                <div class="box-radio">
+                    <input value="1" name="waist" id="waist_a" type="radio">
+                    <label for="waist_a">굴곡이 없다</label>
+                    <input value="0" name="waist" id="waist_r" type="radio">
+                    <label for="waist_r">굴곡이 있다</label>
+                </div>
+                <strong class="radio-name">7. 나의 힙라인은?</strong>
+                <div class="box-radio">
+                    <input value="1" name="hip" id="hip_a" type="radio">
+                    <label for="hip_a">평평하다</label>
+                    <input value="0" name="hip" id="hip_r" type="radio">
+                    <label for="hip_r">둥글다</label>
                 </div>
             </div>
             <div class="box-button">

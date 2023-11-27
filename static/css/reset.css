@@ -45,7 +45,10 @@ label{cursor: pointer;}
 pre{white-space: pre-wrap; word-wrap: break-word;}
 button{display: inline-block; margin: 0; padding: 0; border: 0; background: none; box-shadow: none; text-align: center; cursor: pointer; vertical-align: middle;}
 button::-moz-focus-inner{margin: 0; padding: 0; border: 0;}
-
+select option[value=""][disabled] {
+	display: none;
+	color:#9898a2;
+}
 
 /* #################### html5 ####################*/
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block;}

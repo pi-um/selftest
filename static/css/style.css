@@ -1,5 +1,5 @@
 @import url('./reset.css');
-
+.container{width: 100%; height: 100%;}
 .header_wrap{position: relative; display: flex; align-items: center; justify-content: space-between; padding: 0 50px; width: 100%; height: 84px;}
 .header_wrap .h-logo{width: 66px;}
 .header_wrap .h-menu{position: absolute; left: 50%; top: 50%; display: flex; align-items: center; font-size: 16px; font-weight: 700; transform: translate(-50%,-50%);}
@@ -8,5 +8,35 @@
 .header_wrap .h-right{display: flex; align-items: center;}
 .header_wrap .h-lang_wrap button{width: 86px; height: 40px; border: solid 1px #333333; border-radius: 6px; font-size: 15px; font-weight: 600;}
 .header_wrap .h-lang_wrap{margin-right: 28px;}
-.header_wrap .h-lang_wrap button::after{content: ''; display: inline-block; width: 12px; height: 12px; background: url(../images/icon/h-lang-arrow.svg) no-repeat; margin-left: 3px;}
+.header_wrap .h-lang_wrap button::after{content: ''; display: inline-block; width: 12px; height: 12px; background: url(../img/h-lang-arrow.svg) no-repeat; margin-left: 3px;}
 .header_wrap .h-login_btn{font-size: 16px; font-weight: 700;}
+
+.main{margin: 0 auto; max-width: 980px; width: 100%; display: flex; flex-wrap: wrap; justify-content: space-between}
+.explain-section{max-width: 360px; margin-top: 120px; padding: 0 20px;}
+
+.explain-box .progress-number span:nth-child(1){font-size: 40px; font-weight: 700; color: #ff5c75; }
+.explain-box .progress-number span:nth-child(2){font-size: 20px; font-weight: 500; color: #9898a2; }
+.explain-box .section-title{margin-bottom: 20px; font-size: 36px; font-weight: 700; line-height: 1.5; color: #000;}
+.explain-box .section-comment{line-height: 1.5; color: #333333;}
+.progress-summary{margin-top: 60px; padding: 34px 30px; width: 360px; border:1px solid #e0e0e5; border-radius: 12px; background: #f8f8f9;}
+.progress-summary .summary-title{position: relative; margin-bottom: 18px; padding-left: 28px; font-size: 22px; color: #ff5c75;}
+.progress-summary .summary-title::after{position: absolute; top: 0; left: 0; display: block;width: 20px; height: 20px; background: url(../img/check.png); background-size: cover; content: '';}
+.progress-summary .progress-state{padding-left: 10px; border-left: 1px solid #dddde2;}
+.progress-summary .progress-state li{margin-bottom: 11px; font-weight: 500; color: #9898a2;}
+.progress-summary .progress-state li.checked{font-weight: 600; color: #333333;}
+
+.box-button{margin: 0 auto; display: flex; justify-content: space-around;}
+.box-button .btn-black{width: 200px; height: 56px; border-radius: 6px; font-size: 16px; font-weight: 600; line-height: 56px; color: #fff; background: #000;}
+.box-button .btn-gray{width: 200px; height: 56px; border: 1px solid #d4d4d4; border-radius: 6px;font-size: 16px; font-weight: 600; color: #242424;}
+
+
+
+.checking-section{max-width: 500px; width: 100%; margin: 120px 0 200px; padding: 0 20px;}
+.submit-box{margin-bottom: 65px;}
+.submit-box .box-input{margin-bottom: 28px;}
+.box-input{position: relative; padding-left: 160px;}
+.box-input label{position: absolute; left: 0; font-size: 16px; font-weight: 600; line-height: 48px; color: #000;}
+.box-input input{max-width: 518px; padding: 5px 15px; width: 100%; height: 48px; border: 1px solid #d4d4d4; border-radius: 6px;}
+.box-input > select{max-width: 518px; padding: 5px 15px; width: 100%; height: 48px; border: 1px solid #d4d4d4; border-radius: 6px;}
+
+.footer{position: relative; padding: 70px 80px; background: #242424; color: #fff;}

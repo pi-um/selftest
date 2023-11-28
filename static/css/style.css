@@ -35,13 +35,14 @@
 .box-radio label{margin-left: 20px; width: 80%; line-height: 50px; border: 1px solid #e0e0e5; border-radius: 6px; text-align: center; color: #e0e0e5;}
 .box-radio input[type="radio"]:checked + label{border: 1px solid #ff5c75; color: #ff5c75;}
 
-.checking-section{max-width: 500px; width: 100%; margin: 120px 0 200px; padding: 0 20px;}
+
+.checking-section{display: none; max-width: 500px; width: 100%; margin: 120px 0 200px; padding: 0 20px;}
 .submit-box{margin-bottom: 65px;}
 .submit-box .box-input{margin-bottom: 28px;}
 .box-input{position: relative; padding-left: 160px;}
 .box-input label{position: absolute; left: 0; font-size: 16px; font-weight: 600; line-height: 48px; color: #000;}
 .box-input input{max-width: 518px; padding: 5px 15px; width: 100%; height: 48px; border: 1px solid #d4d4d4; border-radius: 6px;}
-.box-input > select{max-width: 518px; padding: 5px 15px; width: 100%; height: 48px; border: 1px solid #d4d4d4; border-radius: 6px;}
+.box-input > select{max-width: 518px; padding: 5px 15px; width: 111%; height: 48px; border: 1px solid #d4d4d4; border-radius: 6px;}
 .box-input > select option[value=""][disabled] {display: none; color:#9898a2;}
 
 .result-box{max-width: 680px; width: 100%; padding: 80px 30px; border: 1px solid #d4d4d4; border-radius: 6px;}
@@ -59,5 +60,4 @@
 .box-link p{margin-bottom: 30px; font-size: 30px; font-weight: 700;color: #000; }
 .box-link .btn-black{display: block; margin: 0 auto; width: 240px; height: 56px; border-radius: 6px; font-size: 16px; font-weight: 600; line-height: 56px; text-align: center; color: #fff; background: #000;}
 
-
-.footer{position: relative; padding: 70px 80px; background: #242424; color: #fff;}
+.footer{position: relative; display: flex; justify-content: space-between; padding: 70px 80px; background: #242424; line-height: 1.5; color: #fff;}

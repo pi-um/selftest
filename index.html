@@ -225,11 +225,11 @@
               back = $('input[name=back]:checked').val()
               waist_line = $('input[name=waist_line]:checked').val()
               hip = $('input[name=hip]:checked').val()
-                //if(!checkOnePage()){
-                //  return false
-               // }
-              // console.log("work")
 
+              if(!checkOnePage()){
+                return false
+              }
+              
               switch(state){
                 case "pageOne":
                   pageChange(data.pageOne)
@@ -295,6 +295,7 @@
             alert("허리선이 있는지 체크해주세요")
             return false
           }
+          return true
         }
 
         function pageChange(state){

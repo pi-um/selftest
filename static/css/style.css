@@ -12,7 +12,7 @@
 .header_wrap .h-login_btn{font-size: 16px; font-weight: 700;}
 
 .main{margin: 0 auto; max-width: 1100px; width: 100%; display: flex; flex-wrap: wrap; justify-content: space-between}
-.explain-section{max-width: 360px; margin-top: 120px; padding: 0 20px;}
+.explain-section{position: sticky; top: 120px; height: 700px; margin-top: 120px; padding: 0 20px; max-width: 360px; }
 
 .explain-box .progress-number span:nth-child(1){font-size: 40px; font-weight: 700; color: #ff5c75; }
 .explain-box .progress-number span:nth-child(2){font-size: 20px; font-weight: 500; color: #9898a2; }
@@ -61,3 +61,9 @@
 .box-link .btn-black{display: block; margin: 0 auto; width: 240px; height: 56px; border-radius: 6px; font-size: 16px; font-weight: 600; line-height: 56px; text-align: center; color: #fff; background: #000;}
 
 .footer{position: relative; display: flex; justify-content: space-between; padding: 70px 80px; background: #242424; line-height: 1.5; color: #fff;}
+
+
+@media (max-width: 500px) {
+    .explain-section{position: static; top: auto; height: auto;}
+
+  }
